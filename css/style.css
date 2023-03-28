@@ -1,31 +1,19 @@
 body {
     font-family: 'lato', sans-serif;
-    font-weight: 18px;
+    font-size: 1rem;
+    font-weight: 300;
     margin: 0;
     
 }
 
-.header,
-.section,
-.footer {
-    padding: 20px 50px;
-    margin: 0 auto;
-    max-width: 620px;
-}
-
-
-.header,
-.footer {
-    background: #2e354f;
-    color: #fff;
-}
+/* ------- general selectors ------- */
 
 h1 {
-    font-size: 36px;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 2rem;
     color: #ef5839;
     margin-top: 0;
 }
@@ -39,14 +27,46 @@ a:focus {
     color: cornflowerblue;
 }
 
+
+
+img {
+    width: 100%;
+}
+
+ul {
+    font-size: 1rem;
+}
+
+/* ---------- specific selectors -------- */
+
+.header,
+.section,
+.footer {
+    padding: 45px 0;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto;
+    border: pink solid 1px;
+}
+
+
+.header,
+.footer {
+    background: #2e354f;
+    color: #fff;
+}
+
 .section p {
-    font-weight: 300;
     margin-top: 30px;
 }
 
 .footer p {
     margin-bottom: 25px;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .text-bold {
@@ -61,6 +81,7 @@ a:focus {
     padding: 15px 40px;
     text-decoration: none;
     font-weight: 900;
+    font-size: 1rem;
 }
 
 .btn:hover,
